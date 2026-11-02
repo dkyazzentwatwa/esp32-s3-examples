@@ -1,7 +1,7 @@
 # s3demo — all-in-one ESP32-S3 demo firmware
 
 A single firmware for a **bare ESP32-S3-DevKitC-1** (no soldered pins, nothing wired up),
-driven entirely over a slick **ANSI serial-terminal UI**. Built for quick, filmable demos.
+driven entirely over a slick **ANSI serial-terminal UI**. 
 
 Everything runs off what's already on the board: native USB, the Wi-Fi/BLE radio, the BOOT
 button, the onboard WS2812 RGB LED, and the internal temperature sensor.
@@ -96,12 +96,6 @@ The firmware defaults to GPIO48. If the LED stays dark, press **`p`** in the *RG
 or *System Info* screen to switch to GPIO38 (saved to flash). *System Info* also has **`t`**
 for a red/green/blue blink test.
 
-## Instagram tips
-- Film the **terminal window** — the WIDS alert panel going red, the packet monitor bars
-  dancing as you walk around, and the Wi-Fi scanner signal bars are the money shots.
-- The HID demo ("I plugged in a dev board and it started typing") is the classic viral clip —
-  point it at an empty text document.
-- Put the single LED in frame on *Rainbow* or *Police* for a synced accent.
 
 ## Project layout
 ```
